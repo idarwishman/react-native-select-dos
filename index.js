@@ -13,10 +13,10 @@ const INIT_HEIGHT = height * 0.6;
 // create a component
 class Select2 extends Component {
     static defaultProps = {
-        cancelButtonText: 'Hủy',
-        selectButtonText: 'Chọn',
-        searchPlaceHolderText: "Nhập vào từ khóa",
-        listEmptyTitle: 'Không tìm thấy lựa chọn phù hợp',
+        cancelButtonText: 'Cancel',
+        selectButtonText: 'Set',
+        searchPlaceHolderText: "Search state",
+        listEmptyTitle: 'No states with that name found',
         colorTheme: '#16a45f',
         buttonTextStyle: {},
         buttonStyle: {},
@@ -162,6 +162,7 @@ class Select2 extends Component {
                                     returnKeyType='done'
                                     style={[styles.inputKeyword, this.defaultFont]}
                                     placeholder={searchPlaceHolderText}
+                                    placeholderTextColor="gray"
                                     selectionColor={colorTheme}
                                     onChangeText={keyword => this.setState({ keyword })}
                                     onFocus={() => {
@@ -275,7 +276,7 @@ const styles = StyleSheet.create({
     },
     inputKeyword: {
         height: 40, borderRadius: 5, borderWidth: 1, borderColor: '#cacaca',
-        paddingLeft: 8, marginHorizontal: 24, marginTop: 16
+        paddingLeft: 8, marginHorizontal: 24, marginTop: 16, color: 'black'
     },
     buttonWrapper: {
         marginVertical: 16, flexDirection: 'row', alignItems: 'center', justifyContent: 'center'
