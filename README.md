@@ -1,6 +1,7 @@
 # react-native-select-two
 
-## Component like [Select2](https://select2.org/) on web for React Native
+## Component like [Select2](https://select2.org/) on web for React Native. 
+#### Forked from xuho/react-native-select-two
 
 ![Single select](https://raw.githubusercontent.com/xuho/demo-images/master/react-native-select2-single-select.gif)
 
