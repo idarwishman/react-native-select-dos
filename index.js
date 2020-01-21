@@ -15,8 +15,8 @@ class Select2 extends Component {
     static defaultProps = {
         cancelButtonText: 'Cancel',
         selectButtonText: 'Set',
-        searchPlaceHolderText: "Search state",
-        listEmptyTitle: 'No states with that name found',
+        searchPlaceHolderText: "Search items",
+        listEmptyTitle: 'No items with that name found',
         colorTheme: '#16a45f',
         buttonTextStyle: {},
         buttonStyle: {},
