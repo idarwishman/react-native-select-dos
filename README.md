@@ -1,4 +1,4 @@
-# react-native-select-two
+# react-native-select-dos
 
 ## Component like [Select2](https://select2.org/) on web for React Native. 
 #### Forked from xuho/react-native-select-two
